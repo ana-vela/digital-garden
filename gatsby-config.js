@@ -47,15 +47,16 @@ module.exports = {
       resolve: 'gatsby-plugin-feed',
       options: {
         query: `
-          {
-            site {
-              siteMetadata {
-                site_url: https://ana-digital-garden.netlify.app
-                title: title
-                description: subtitle
-              }
+        {
+          site {
+            siteMetadata {
+              title
+              description
+              siteUrl
+              site_url: siteUrl
             }
           }
+        }
         `,
         feeds: [{
           serialize: ({ query: { site, allMarkdownRemark } }) => (
