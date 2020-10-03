@@ -50,7 +50,7 @@ module.exports = {
           {
             site {
               siteMetadata {
-                site_url: url
+                site_url: https://ana-digital-garden.netlify.app
                 title
                 description: subtitle
               }
