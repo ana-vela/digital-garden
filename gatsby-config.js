@@ -50,10 +50,9 @@ module.exports = {
         {
           site {
             siteMetadata {
+              site_url: url
               title
-              description
-              siteUrl
-              site_url: siteUrl
+              description: subtitle
             }
           }
         }
