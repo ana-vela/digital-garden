@@ -1,7 +1,7 @@
 ---
 template: page
-title: Resources
-slug: resources
+title: JavaScript
+slug: javascript
 socialImage: /media/james-mckinven-tpuao8gvs58-unsplash.jpg
 draft: false
 ---
