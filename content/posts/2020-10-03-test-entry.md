@@ -1,13 +1,15 @@
 ---
 template: post
-title: Test Entry
-slug: test-entry
+title: Day 75
+slug: day-75
 socialImage: /media/james-mckinven-tpuao8gvs58-unsplash.jpg
 draft: false
 date: 2020-10-03T04:28:56.869Z
-description: a new entry to test netlify cms
+description: Reached another milestone!
 category: test
 tags:
-  - hello working
+  - 100 Days of Code
+  - Web Development
+  - Blogging
 ---
-This is a test entry
+Finally got to 3/4th of the way done.
