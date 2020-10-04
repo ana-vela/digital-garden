@@ -1,9 +1,9 @@
 "use strict";
 
 module.exports = {
-  url: "https://lumen.netlify.com",
+  url: "https://digitalgarden.anavela.dev",
   pathPrefix: "/",
-  title: "Blog by John Doe",
+  title: "Ana's Digital Garden",
   subtitle:
     "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
   copyright: "© All rights reserved.",
@@ -13,23 +13,36 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: "Articles",
+      label: "Log",
       path: "/",
     },
     {
-      label: "About me",
+      label: "About",
       path: "/pages/about",
     },
+    
     {
-      label: "Contact me",
+      label: "React",
+      path: "/pages/react",
+    },
+    {
+      label: "JavaScript",
+      path: "/pages/javascript",
+    },
+    {
+      label: "Start Coding",
+      path: "/pages/start-coding",
+    },
+    {
+      label: "Contact Me",
       path: "/pages/contacts",
     },
   ],
   author: {
-    name: "Ana Vela",
+    name: "Ana's Digital Garden",
     // photo: "/photo.jpg",
     bio:
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+      "A place where I log my daily coding practice and list a variety of resources & ideas.",
     contacts: {
       email: "",
       facebook: "#",
