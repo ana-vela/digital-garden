@@ -1,6 +1,6 @@
 ---
 template: post
-title: Day 75
+title: Day 75 - 100 Days of Code - Round 2
 slug: day-75
 socialImage: /media/james-mckinven-tpuao8gvs58-unsplash.jpg
 draft: false
