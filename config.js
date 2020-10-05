@@ -42,7 +42,7 @@ module.exports = {
     name: "Ana's Digital Garden",
     // photo: "/photo.jpg",
     bio:
-      "A place where I log my daily coding practice and list a variety of resources & ideas.",
+      "A place where I log my daily coding practice and add a variety of resources & ideas.",
     contacts: {
       email: "",
       facebook: "#",
