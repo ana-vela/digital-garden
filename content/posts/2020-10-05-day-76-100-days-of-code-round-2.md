@@ -1,11 +1,11 @@
 ---
 template: post
-title: Day 76 - 100 Days of Code - Round 2
+title: My Digital Garden is Live!
 slug: day-76
 socialImage: /media/james-mckinven-tpuao8gvs58-unsplash.jpg
 draft: false
 date: 2020-10-05T12:12:04.932Z
-description: My Digital Garden is Live!
+description: Day 76 - 100 Days of Code - Round 2
 category: 100 Days of Code
 tags:
   - 100 Days of Code

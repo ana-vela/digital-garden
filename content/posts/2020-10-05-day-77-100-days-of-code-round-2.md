@@ -1,11 +1,11 @@
 ---
 template: post
-title: Day 77 - 100 Days of Code - Round 2
+title: Learning Git Commands for Open Source Projects
 slug: day-77
 socialImage: /media/james-mckinven-tpuao8gvs58-unsplash.jpg
 draft: false
 date: 2020-10-05T12:21:45.996Z
-description: Git Commands for Open Source Projects
+description: Day 77 - 100 Days of Code - Round 2
 category: 100 Days of Code
 tags:
   - 100 Days of Code
