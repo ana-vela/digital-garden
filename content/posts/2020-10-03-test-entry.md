@@ -1,6 +1,6 @@
 ---
 template: post
-title: Reached Another Milestone!
+title: Reached Another Milestone
 slug: day-75
 socialImage: /media/james-mckinven-tpuao8gvs58-unsplash.jpg
 draft: false

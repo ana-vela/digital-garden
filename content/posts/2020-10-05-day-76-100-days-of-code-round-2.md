@@ -1,6 +1,6 @@
 ---
 template: post
-title: My Digital Garden is Live!
+title: My Digital Garden is Live
 slug: day-76
 socialImage: /media/james-mckinven-tpuao8gvs58-unsplash.jpg
 draft: false
