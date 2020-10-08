@@ -30,7 +30,7 @@ Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut
 
 Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
 
-<form name="contact" method="POST" netlify-honeypot="bot-field" action="/pages/thanks" data-netlify="true">
+<form name="contact" netlify-honeypot="bot-field" action="/pages/thanks" netlify>
     <p style="display:none;">
         <label>Don’t fill this out: <input name="bot-field"></label>
     </p>  
