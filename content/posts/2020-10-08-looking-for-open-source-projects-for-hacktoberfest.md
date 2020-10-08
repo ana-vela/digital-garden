@@ -3,7 +3,7 @@ template: post
 title: Looking for Open Source Projects for Hacktoberfest
 slug: day-78
 socialImage: /media/james-mckinven-tpuao8gvs58-unsplash.jpg
-draft: true
+draft: false
 date: 2020-10-08T03:14:25.988Z
 description: Day 78 - 100 Days of Code - Round 2
 category: 100 Days of Code
