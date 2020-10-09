@@ -10,7 +10,7 @@ socialImage: "/media/image-4.jpg"
 
 <div class="mdhtmlform-html">
 
-<form name="contact" value="contact" method="POST" netlify-honeypot="bot-field" action="/pages/thanks" enctype="application/x-www-form-urlencoded" data-netlify="true">
+<form name="contact" value="contact" method="POST" netlify-honeypot="bot-field" action="/pages/thanks" enctype="application/x-www-form-urlencoded" netlify>
     <p style="display:none;">
         <label>Don’t fill this out: <input name="bot-field" value="contact" /></label>
     </p>  
