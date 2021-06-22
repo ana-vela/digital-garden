@@ -1,34 +1,39 @@
 // @flow strict
-import React from 'react';
-import { graphql } from 'gatsby';
-import Layout from '../components/Layout';
-import Post from '../components/Post';
-import { useSiteMetadata } from '../hooks';
-import type { MarkdownRemark } from '../types';
+import React from "react";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
+import Post from "../components/Post";
+import { useSiteMetadata } from "../hooks";
+import type { MarkdownRemark } from "../types";
+import Comments from "../components/comments.js";
 
 type Props = {
   data: {
-    markdownRemark: MarkdownRemark
-  }
+    markdownRemark: MarkdownRemark,
+  },
 };
 
 const PostTemplate = ({ data }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const { frontmatter } = data.markdownRemark;
-  const { title: postTitle, description: postDescription, socialImage } = frontmatter;
-  const metaDescription = postDescription !== null ? postDescription : siteSubtitle;
-  const socialImageUrl = typeof socialImage !== 'undefined' ? socialImage['publicURL'] : undefined;
+  const {
+    title: postTitle,
+    description: postDescription,
+    socialImage,
+  } = frontmatter;
+  const metaDescription =
+    postDescription !== null ? postDescription : siteSubtitle;
+  const socialImageUrl =
+    typeof socialImage !== "undefined" ? socialImage["publicURL"] : undefined;
 
   return (
-    <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImageUrl} >
+    <Layout
+      title={`${postTitle} - ${siteTitle}`}
+      description={metaDescription}
+      socialImage={socialImageUrl}
+    >
       <Post post={data.markdownRemark} />
-      <script src="https://utteranc.es/client.js"
-        repo="ana-vela/digital-garden"
-        issue-term="title"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+      <Comments />
     </Layout>
   );
 };
