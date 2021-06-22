@@ -22,6 +22,13 @@ const PostTemplate = ({ data }: Props) => {
   return (
     <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImageUrl} >
       <Post post={data.markdownRemark} />
+      <script src="https://utteranc.es/client.js"
+        repo="ana-vela/digital-garden"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
     </Layout>
   );
 };
