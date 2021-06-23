@@ -1,11 +1,11 @@
 // @flow strict
-import React from "react";
-import { graphql } from "gatsby";
-import Layout from "../components/Layout";
-import Post from "../components/Post";
-import { useSiteMetadata } from "../hooks";
-import type { MarkdownRemark } from "../types";
-import Comments from "../components/comments.js";
+import React from 'react';
+import { graphql } from 'gatsby';
+import Layout from '../components/Layout';
+import Post from '../components/Post';
+import { useSiteMetadata } from '../hooks';
+import type { MarkdownRemark } from '../types';
+import Comments from '../components/Comments';
 
 type Props = {
   data: {
